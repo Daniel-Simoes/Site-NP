@@ -449,7 +449,8 @@ pre {
   margin-left: auto; }
   @media (min-width: 576px) {
     .container {
-      max-width: 540px; } }
+      max-width: 540px; 
+	  } }
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
@@ -691,6 +692,10 @@ pre {
   margin-left: 91.66667%; }
 
 @media (min-width: 576px) {
+	
+	.bg-top {
+		background: red;}
+	
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -3532,11 +3537,7 @@ input[type="button"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%; }
 
-@media (max-width: 575.98px) {
-  .navbar-expand-sm > .container,
-  .navbar-expand-sm > .container-fluid {
-    padding-right: 0;
-    padding-left: 0; } }
+@media (max-width: 575.98px) { }
 
 @media (min-width: 576px) {
   .navbar-expand-sm {

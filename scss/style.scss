@@ -496,6 +496,7 @@ h1, h2, h3, h4, h5,
 			z-index: 0;
 			@include media-breakpoint-down(lg){
 				background-position: center center !important;
+				
 			}
 			.overlay{
 				position: absolute;
